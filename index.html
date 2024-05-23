@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de juros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section id="img">
+            <img src="./img/juros.png" alt="">
+        </section>
+        <section id="card">
+            <div>
+                <h1>Calculadora - Juros</h1>
+                <div id="linha"></div>
+            </div>
+            <div class="container-in">
+                <div class="in">
+                    <label for="">Capital em reais</label>
+                    <input type="number" id="inCapital" placeholder="Digite o valor do capital" />
+                </div>
+                <div class="in">
+                    <label for="">Taxa de juros</label>
+                    <input type="number" id="inTaxa" placeholder="Digite a taxa de juros" />
+                </div>
+                <div class="in">
+                    <label for="">Tempo de aplicação em anos</label>
+                    <input type="number" id="inTempo" placeholder="Digite o tempo da aplicação" />
+                </div>
+            </div>
+            <button type="submit" id="btnCalcular">Calcular</button>
+
+            <div id="resultado">
+
+                <div class="juros">
+
+                </div>
+
+                <p class="orange" id="jurosComp"></p>
+            </div>
+        </section>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
